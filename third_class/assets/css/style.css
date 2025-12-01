@@ -1,0 +1,19 @@
+/* table, th, tr, td {
+    color: aqua;
+    border-collapse: collapse;
+    text-align: justify;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 100px;
+    
+}
+
+th, td{
+    background-color: rgb(14, 12, 13);
+} */
+
+
+#p, #p table, #p th, #p td, #p tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
