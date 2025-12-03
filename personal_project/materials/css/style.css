@@ -1,0 +1,58 @@
+body{margin: 0px;
+    padding: 0px;}
+/* #navdiv {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(101, 148, 120); 
+}
+#cate {
+    width: 10%;
+    height: 10vh;
+    border: 1px rgb(3, 3, 3);
+    top margin: 4vh;
+} */
+
+.topnav {
+    overflow: hidden;
+    float: left;
+    margin-top: 18px;
+}
+.search {
+    float: left;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+.outlet a {
+    float: left;
+    margin-left: 10px;
+    color: #fd0000;
+    margin-top: 18px;
+}
+#helpline a {
+    float: left;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+.outlook {
+    background-color: aqua;
+    height: 8vh;
+    
+}
+#image img {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-top: 6px;
+    margin-left: 10px;
+
+}
+/* .topnav {
+    float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+} */
