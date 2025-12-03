@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding:  px;
+}
+
+#top {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(21, 240, 1);
+}
+#right{
+    width: 50%;
+    height: 80vh;
+   
+    background-color: blue;
+    float: left;
+}
+#left{
+    width: 50%;
+    height: 80vh;
+    background-color: blueviolet;
+    float: right;
+}
+#down{
+    width: 100%;
+    height: 10vh;
+    background-color: cyan;
+    margin-top: 80vh;
+}

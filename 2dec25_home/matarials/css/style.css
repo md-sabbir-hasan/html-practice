@@ -16,6 +16,7 @@ ul li{
 
 ul li:last-child{
     border-right: none;
+    float: left;
     
 }
 ul li a {
@@ -30,5 +31,9 @@ ul li a {
 ul li a:hover {
     background-color: hsl(150, 98%, 46%);
     color: blue;
+}
+#right {
+    float: right;
+    
 }
 
