@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <form action="#">
+        <div class="form-body">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" placeholder="your name" maxlength="20" />
+        </div>
+        <div class="form-body">
+          <label for="id" class="form-label">ID</label>
+          <input type="number" placeholder="your id" min="1" max="6" />
+        </div>
+        <div class="form-body">
+          <label for="date" class="form-label">Date of Birth</label>
+          <input type="date" />
+        </div>
+        <div class="form-body">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            multiple
+            placeholder="example@gmail.com"
+          />
+        </div>
+        <div class="form-body">
+          <label for="mobile" class="form-label">Mobile No:</label>
+          <input type="number" min="11" max="14" />
+        </div>
+        <div class="form-body">
+          <label for="gender" class="form-label">Gender</label>
+          <input type="radio" name="gender" />Male
+          <input type="radio" name="gender" />Female
+          <input type="radio" name="gender" />Others
+        </div>
+        <div class="form-body">
+          <label for="Adress" class="form-label">Adress</label>
+          <textarea name="" id="" rows="5" cols="20"></textarea>
+        </div>
+        <div class="form-body">
+          <label for="Subject" class="form-label">Subject</label>
+          <select name="" id="">
+            <option value="">--select--</option>
+            <option value="">Statistics</option>
+            <option value="">Math</option>
+          </select>
+        </div>
+        <div class="form-body">
+          <label for="Hobby" class="form-label">Hobby</label>
+          <input type="checkbox" name="" id="" />Fighting
+          <input type="checkbox" name="" id="" />Robery
+          <input type="checkbox" name="" id="" />Taking Alcohol
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

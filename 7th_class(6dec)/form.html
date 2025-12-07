@@ -1,17 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <style>
+      .radio-group {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+      }
+
+      .radio-item {
+        display: flex;
+        align-items: center;
+      }
+
+      .form-radio {
+        height: 1rem;
+        width: 1rem;
+        color: #4f46e5; /* text-indigo-600 */
+      }
+
+      .radio-label {
+        margin-left: 0.5rem; /* ml-2 */
+        font-size: 0.875rem;
+        color: #4b5563;
+      }
+    </style>
+  </head>
+  <body>
     <form action="">
-        <label for=""></label>
-        <label for=""></label>
-        <label for=""></label>
-        <label for=""></label>
-        <label for=""></label>
+      <div class="form-group">
+        <label class="form-label">Hotel Required?</label>
+        <div class="radio-group">
+          <div class="radio-item">
+            <input
+              type="radio"
+              name="hotel-required"
+              id="hotel-required-yes"
+              value="yes"
+              class="form-radio"
+            />
+            <label for="hotel-required-yes" class="radio-label">Yes</label>
+          </div>
+          <div class="radio-item">
+            <input
+              type="radio"
+              name="hotel-required"
+              id="hotel-required-no"
+              value="no"
+              class="form-radio"
+            />
+            <label for="hotel-required-no" class="radio-label">No</label>
+          </div>
+        </div>
+      </div>
     </form>
-</body>
+  </body>
 </html>

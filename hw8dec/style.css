@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navi {
+    float: left;
+    width: 10%;
+    height: 100vh;
+    background-color: aqua;
+}
+.boss {
+    float: right;
+    width: 90%;
+    height: 100vh;
+    background-color: blueviolet;
+   
+    
+}
+
+iframe {
+    width: 90%;
+    height: 100vh;
+}
+
+/* form {
+    
+    border: 1px solid black;
+    
+} */
+
+#hjhj {
+    float: left;
+width: 50%;
+height: 20vh;
+background-color: aqua;
+}
+
+#doss {
+    float: right;
+    height: 20vh;
+    width: 50%;
+    background-color: blue;
+}
+
+/* 
+
+.form-form{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.form-body{
+    margin: 1.5rem;
+}
+.form-form */
+
+#container{
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(114, 139, 139);
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.form-body{
+    margin: 20px;
+}
+input, textarea, select {
+    width: ;
+}
