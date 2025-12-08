@@ -69,6 +69,6 @@ background-color: aqua;
 .form-body{
     margin: 20px;
 }
-input, textarea, select {
-    width: ;
+.inputer {
+    width: 100%;
 }
